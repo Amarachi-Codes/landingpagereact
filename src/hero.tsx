@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import header from "./images/header.png";
 
 
 function Herosection(){
@@ -7,7 +8,7 @@ function Herosection(){
         <>
         <div className="hero-wrapper">
             <div className="hero-left">
-            <h1>A home built and unqiue with love and dreams</h1>
+            <h1>A home built and unique with love and dreams</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque dignissimos quidem doloremque aspernatur tenetur fuga iste, voluptatibus beatae eius praesentium. Voluptate reprehenderit iusto excepturi natus, pariatur tenetur minima, est, quia eos hic neque harum id.</p>
             <div className="btn-wrapper">
             <button className="hero-btn">Buy Now</button>
@@ -15,7 +16,7 @@ function Herosection(){
             </div>
             </div>
             <div className="img-wrapper">
-            <img src="./assets/header.png" alt="header image"/>
+            <img src={header} alt="header image"/>
             </div>
             
         </div>
