@@ -1,0 +1,27 @@
+.mylist{
+    list-style: none;
+    padding: 4px 12px;
+    
+    
+  }
+  .mybtn{
+    /* margin-left: 12px; */
+    margin-right: 12px;
+  }
+  .mynav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+  }
+  
+  .mylinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+  .logo{
+    align-items: start;
+  }
