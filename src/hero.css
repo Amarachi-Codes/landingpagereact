@@ -1,0 +1,33 @@
+.hero-wrapper{
+    display: flex;
+    gap:30px;
+    padding-top:4rem;
+}
+
+.hero-wrapper .hero-left{
+    width: 50%;
+    padding-left: 6rem;
+    
+}
+.hero-wrapper .hero-left h1{
+    line-height: 1.2em;
+    font-size: 4em;
+}
+.hero-btn{
+    padding: 8px 24px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.hero-btn2{
+    padding: 8px 24px;
+    background-color: #fff;
+    color: grey;
+    border-radius: 4px;
+    border: 1px solid grey;
+      
+}
+.btn-wrapper{
+    margin-top: 32px;
+}

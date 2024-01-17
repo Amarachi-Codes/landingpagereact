@@ -5,7 +5,7 @@ function Contact(){
         <>
         <div className="contact-wrapper">
             <div className="img-wrapper">
-        <img src="./contact.jpg" alt="" />
+        <img src="./contact.jpg" alt="contact" />
         </div>
         <div className="contact-form">
             <h2>Contact Us</h2>

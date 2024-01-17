@@ -8,10 +8,9 @@ function Myheader(){
     return(
         <>
         <nav className="navbar sticky-top container-fluid mynav">
-            
+        <a href="" className="logo">BSA HOMES</a>
             <ul className="mylinks">
-            <a href="" className="logo">BSA HOMES</a>
-                {mynavs.map((mynav,index)=>(
+            {mynavs.map((mynav,index)=>(
                     <li className="mylist" key={index}>{mynav}</li>
                 )
                 )}
