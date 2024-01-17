@@ -4,6 +4,7 @@ import Herosection from "./hero"
 import Aboutus from "./about"
 import Myproject from "./projects"
 import Contact from "./contact"
+import Myfooter from "./footer"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   <Aboutus/>
   <Myproject/>
   <Contact/>
+  <Myfooter/>
   </>
  )
 }

@@ -4,7 +4,7 @@ function Myfooter(){
     return(
         <>
        <div className="holux-des">
-        <h5>HOLUX</h5>
+        <h5>BSA HOMES</h5>
         <p>Our team of seasoned professionals is committed to providing you with exceptional service, in-depth market knowledge, and personalized solutions tailored to your unique needs.</p>
        </div>
        <div>
@@ -29,3 +29,5 @@ function Myfooter(){
         </>
     )
 }
+
+export default Myfooter;
