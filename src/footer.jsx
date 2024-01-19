@@ -27,7 +27,7 @@ function Myfooter() {
                     <p>+2347045756160</p>
 
                 </div>
-                <p>Copyright © 2023 Mars Tchnologies. All rights reserved.</p>
+                {/* <p>Copyright © 2023 Mars Tchnologies. All rights reserved.</p> */}
             </div>
         </>
     )
