@@ -1,11 +1,13 @@
 import React from "react";
+import "./contact.css";
+import contact from "./images/contact.jpg";
 
 function Contact(){
     return(
         <>
         <div className="contact-wrapper">
             <div className="img-wrapper">
-        <img src="./contact.jpg" alt="contact" />
+        <img src={contact} alt="contact" />
         </div>
         <div className="contact-form">
             <h2>Contact Us</h2>
