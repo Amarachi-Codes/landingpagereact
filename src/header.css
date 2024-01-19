@@ -4,6 +4,7 @@
     
     
   }
+  
   .mybtn{
     /* margin-left: 12px; */
     margin-right: 12px;
@@ -15,6 +16,7 @@
     padding: 24px 32px;
     width: 100%;
     z-index: 1;
+    background-color: white;
   }
   
   .mylinks{
@@ -30,4 +32,7 @@
     font-weight: 600;
     
     
+  }
+  .space{
+    padding: 0 0.5rem;
   }

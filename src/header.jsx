@@ -3,8 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css";
 import "./hero.css";
 
+
+
 let mynavs = ["Home", "About", "Project", "Contact"];
-let mybtns =["Log In","Register Now"]
+let mybtns =["Log In","Register Now"];
 function Myheader(){
     return(
         <>
@@ -15,10 +17,12 @@ function Myheader(){
                     <li className="mylist" key={index}>{mynav}</li>
                 )
                 )}
+                <span className="space"></span>
                 {mybtns.map((mybtn, index)=>(
                     <button className="hero-btn" key={index}>{mybtn}</button>
                 )
                 )}
+                
             </ul>
            
         </nav>

@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import about from "./images/about.jpg";
 
+
 function Aboutus() {
     return (
         <>
@@ -29,6 +30,7 @@ function Aboutus() {
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }

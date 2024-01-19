@@ -41,43 +41,43 @@ function Myproject() {
             <div className="img-container">
                 <div>
                     <img src={project1} alt="project1" />
-
-                    <Propertylocation name="Palm View Apartments" location="Off Oando Lekki Phase 1" />
+                    <Propertylocation name="Marina Heights" location="Marina, Lagos" />
+                    
 
 
                 </div>
                 <div>
                     <img src={project2} alt="project2" />
 
-                    <Propertylocation name="Bliss Residency" location="Elegushi Beach, Lekki Phase 1" />
+                    <Propertylocation name="Transcorp Residency" location="Aguiyi Ironsi, Maitama Abuja" />
 
 
                 </div>
                 <div>
                     <img src={project3} alt="project3" />
 
-                    <Propertylocation name="Cityscape Residency" location="Off Chevron way Lekki Pennisula" />
+                    <Propertylocation name="Pennisula Residency" location="Off Chevron way, Lekki Pennisula Lagos" />
 
 
                 </div>
                 <div>
                     <img src={project4} alt="project4" />
-
-                    <Propertylocation name="Desert Rose Flats" location="Badore Ajah Lagos" />
+                    <Propertylocation name="Admiralty Suites" location="Admiralty way, Lekki Lagos" />
+                    
 
 
                 </div>
                 <div>
                     <img src={project5} alt="project5" />
-
-                    <Propertylocation name="Golden Sand Suites" location="Admiralty way Lekki" />
+                    <Propertylocation name="Desert Rose Flats" location="Badore Ajah, Lagos" />
+                    
 
 
                 </div>
                 <div>
                     <img src={project6} alt="project6" />
-
-                    <Propertylocation name="Marina Heights" location="Marina Lagos" />
+                    <Propertylocation name="Palm View Apartments" location="Off Oando, Lekki Phase 1 Lagos" />
+                    
 
 
                 </div>
