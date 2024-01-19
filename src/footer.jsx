@@ -5,7 +5,7 @@ function Myfooter() {
     return (
         <>
             <div className="footer-wrapper">
-                <div className="bsa-mission section">
+                <div className="bsa-mission">
                     <h5>BSA HOMES</h5>
                     <p>Our team of seasoned professionals is committed to providing you with exceptional service, in-depth market knowledge, and personalized solutions tailored to your unique needs.</p>
                 </div>
