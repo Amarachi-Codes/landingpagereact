@@ -4,6 +4,7 @@ import "./footer.css"
 function Myfooter() {
     return (
         <>
+        <div className="footer-container">
             <div className="footer-wrapper">
                 <div className="bsa-mission">
                     <h5>BSA HOMES</h5>
@@ -30,7 +31,9 @@ function Myfooter() {
 
                 </div>
                 </div>
-                {/* <p>Copyright © 2023 Mars Tchnologies. All rights reserved.</p> */}
+                
+            </div>
+            <p className="copyright">Copyright © 2023 Mars Tchnologies. All rights reserved.</p>
             </div>
         </>
     )

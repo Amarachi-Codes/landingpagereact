@@ -1,9 +1,14 @@
+
+.footer-container{
+    background: #000;
+    color: #fff;
+    
+}
 .footer-wrapper{
     display: flex;
     gap: 30px;
     padding: 4rem 6rem;
-    background: #000;
-    color: #fff;
+    
 }
 .footer-wrapper .bsa-mission{
     width: 30%;
@@ -19,4 +24,7 @@
 }
 .footer-wrapper .section-wrapper .section p{
     font-size: large;
+}
+.footer-container .copyright{
+    text-align: center;
 }
