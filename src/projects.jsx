@@ -1,5 +1,6 @@
 import React from "react";
 import "./project.css";
+import "./hero.css";
 import project1 from "./images/project-1.jpg";
 import project2 from "./images/project-2.jpg";
 import project3 from "./images/project-3.jpg";
@@ -10,16 +11,19 @@ import project6 from "./images/project-6.jpg";
 function Button() {
     return (
         <>
-            <button>Book Now</button>
+            <button className="hero-btn">Book Now</button>
         </>
     )
 }
 
-function Propertylocation() {
+function Propertylocation(props) {
     return (
         <>
-            <h2>Palm View Apartments</h2>
-            <p> Palm Jumeirah, Dubai</p>
+            <div className="property-wrapper">
+                <h2>{props.name}</h2>
+                <p> {props.location}</p>
+                <Button />
+            </div>
         </>
     )
 
@@ -37,45 +41,45 @@ function Myproject() {
             <div className="img-container">
                 <div>
                     <img src={project1} alt="project1" />
-                    <div>
-                        <Propertylocation />
-                        <Button />
-                    </div>
+
+                    <Propertylocation name="Palm View Apartments" location="Off Oando Lekki Phase 1" />
+
+
                 </div>
                 <div>
                     <img src={project2} alt="project2" />
-                    <div>
-                        <Propertylocation />
-                        <Button />
-                    </div>
+
+                    <Propertylocation name="Bliss Residency" location="Elegushi Beach, Lekki Phase 1" />
+
+
                 </div>
                 <div>
                     <img src={project3} alt="project3" />
-                    <div>
-                        <Propertylocation />
-                        <Button />
-                    </div>
+
+                    <Propertylocation name="Cityscape Residency" location="Off Chevron way Lekki Pennisula" />
+
+
                 </div>
                 <div>
-                <img src={project4} alt="project4" />
-                <div>
-                        <Propertylocation />
-                        <Button />
-                    </div>
+                    <img src={project4} alt="project4" />
+
+                    <Propertylocation name="Desert Rose Flats" location="Badore Ajah Lagos" />
+
+
                 </div>
                 <div>
-                <img src={project5} alt="project5" />
-                <div>
-                        <Propertylocation />
-                        <Button />
-                    </div>
+                    <img src={project5} alt="project5" />
+
+                    <Propertylocation name="Golden Sand Suites" location="Admiralty way Lekki" />
+
+
                 </div>
                 <div>
-                <img src={project6} alt="project6" />
-                <div>
-                        <Propertylocation />
-                        <Button />
-                    </div>
+                    <img src={project6} alt="project6" />
+
+                    <Propertylocation name="Marina Heights" location="Marina Lagos" />
+
+
                 </div>
             </div>
 
